@@ -41,3 +41,31 @@ export const CAREER_SUMMARY = {
         "Key point 4"
     ]
 }
+
+export const EXPERIENCE={
+    HEADING: 'WORK EXPERIENCE',
+    EXPERIENCES: [
+        {
+            ROLE: 'Salesforce Developer',
+            COMPANY_NAME:'Revolent',
+            DURATION: 'May 2020 - Present',
+            DESCRIPTION: 'Ceritified Salesforce Developer ...',
+            DESCRIPTION_POINTS: [
+                'Responsibility and achievement 1',
+                'Responsibility and achievement 2',
+                'Responsibility and achievement 3',
+                'Responsibility and achievement 4',
+            ],
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used',
+                LIST: [
+                    'Java',
+                    'APEX',
+                    'LWC',
+                    'Javascript',
+                    'Visualforce'
+                ]
+            }
+        }
+    ]
+}
