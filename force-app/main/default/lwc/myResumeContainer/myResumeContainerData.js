@@ -30,3 +30,14 @@ export const USER_DETAILS = {
     EMAIL: 'dalinwanglhtz@gmail.com',
     PHONE: '04xx xxx xxx'
 }
+
+export const CAREER_SUMMARY = {
+    HEADING: 'CAREER SUMMARY',
+    DESCRIPTION: 'Some descriptions ...',
+    KEY_POINTS: [
+        "Key point 1",
+        "Key point 2",
+        "Key point 3",
+        "Key point 4"
+    ]
+}
