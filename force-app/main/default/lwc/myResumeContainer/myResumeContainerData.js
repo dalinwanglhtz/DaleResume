@@ -69,3 +69,35 @@ export const EXPERIENCE={
         }
     ]
 }
+
+export const EDUCATION_DATA={
+    ICON: SOCIAL + '/SOCIAL/education.svg',
+    HEADING: 'EDUCATION',
+    LIST: [
+        {
+            NAME: 'Master of Information Systems',
+            UNIVERSITY_NAME: 'The University of Melbourne',
+            DURATION: '2009 - 2014'
+        },
+        {
+            NAME: 'Bachelor of Computer Science',
+            UNIVERSITY_NAME: 'The University of Melbourne',
+            DURATION: '2003 - 2007'
+        }
+    ]
+}
+
+export const AWARDS_DATA={
+    ICON: SOCIAL+'/SOCIAL/awards.svg',
+    HEADING: 'AWARDS',
+    LIST: [
+        {
+            NAME: 'Executive Director Award',
+            DESCRIPTION: '3 months consulting project initiating Agile practices in client site'
+        },
+        {
+            NAME: 'Director Award',
+            DESCRIPTION: 'Delivery of Mobile Flight Deck ...'
+        }
+    ]
+}
