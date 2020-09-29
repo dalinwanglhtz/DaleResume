@@ -10,7 +10,11 @@
                                 <img src={details.ICON} alt="icon" width="20px"
                                 class="slds-var-m-right_xx-small" />
                             </template>
-                            <div class="fontWeight700 font14">{list.NAME}</div>
+                            <div class="fontWeight700 font14">{list.NAME}
+                                <template if:true={list.LEVEL}>
+                                    <span class="subText font14"> ({list.LEVEL})</span>
+                                </template>
+                            </div>
                         </div>
                         <template if:true={list.UNIVERSITY_NAME}>
                             <div class="uni_name">{list.UNIVERSITY_NAME}</div>

@@ -101,3 +101,33 @@ export const AWARDS_DATA={
         }
     ]
 }
+
+export const CERTIFICATION_DATA={
+    ICON: SOCIAL+'/SOCIAL/certification.svg',
+    HEADING: 'Certifications',
+    LIST: [
+        {
+            NAME: 'Salesforce Administrator'
+        },
+        {
+            NAME: 'Salesforce Platform Developer 1'
+        },
+        {
+            NAME: 'Salesforce Platform App Builder'
+        }
+    ]
+}
+
+export const LANGUAGES_DATA={
+    HEADING: 'Languages',
+    LIST: [
+        {
+            NAME: 'English',
+            LEVEL: 'Professional'
+        },
+        {
+            NAME: 'Mandarin',
+            LEVEL: 'Native'
+        }
+    ]
+}
