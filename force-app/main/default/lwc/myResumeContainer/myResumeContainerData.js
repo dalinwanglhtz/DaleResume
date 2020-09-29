@@ -104,7 +104,7 @@ export const AWARDS_DATA={
 
 export const CERTIFICATION_DATA={
     ICON: SOCIAL+'/SOCIAL/certification.svg',
-    HEADING: 'Certifications',
+    HEADING: 'CERTIFICATIONS',
     LIST: [
         {
             NAME: 'Salesforce Administrator'
@@ -119,7 +119,7 @@ export const CERTIFICATION_DATA={
 }
 
 export const LANGUAGES_DATA={
-    HEADING: 'Languages',
+    HEADING: 'LANGUAGES',
     LIST: [
         {
             NAME: 'English',
@@ -129,5 +129,43 @@ export const LANGUAGES_DATA={
             NAME: 'Mandarin',
             LEVEL: 'Native'
         }
+    ]
+}
+
+export const SKILLS_DATA={
+    HEADING: 'SKILLS & TOOLS',
+    SKILLS: [
+        {
+            HEADING: 'FRONTEND',
+            SKILLS_LIST: [
+                {NAME: 'Javascript(ES6)', LEVEL: '80'},
+                {NAME: 'HTML/CSS', LEVEL: '60'},
+            ]
+        },
+        {
+            HEADING: 'BACKEND',
+            SKILLS_LIST: [
+                {NAME: 'Java(6/7/8)', LEVEL: '90'},
+                {NAME: 'NodeJS', LEVEL: '65'},
+                {NAME: 'PHP', LEVEL: '70'},
+                {NAME: 'APEX', LEVEL: '60'},
+            ]
+        },
+        {
+            HEADING: 'SALESFORCE',
+            SKILLS_LIST: [
+                {NAME: 'Lightning Web Component', LEVEL: '70'},
+                {NAME: 'Visualforce', LEVEL: '50'},
+                {NAME: 'Process Builder', LEVEL: '85'},
+                {NAME: 'Lightning Flow', LEVEL: '85'},
+                {NAME: 'Workflow Rules', LEVEL: '80'},
+                {NAME: 'Reports & Dashboards', LEVEL: '80'},
+                {NAME: 'Data Management', LEVEL: '80'},
+                {NAME: 'Security & Access', LEVEL: '80'},
+                {NAME: 'Sales Cloud', LEVEL: '70'},
+                {NAME: 'Service Cloud', LEVEL: '60'},
+                {NAME: 'Salesforce Community', LEVEL: '70'},
+            ]
+        },
     ]
 }
