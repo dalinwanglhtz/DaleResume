@@ -167,5 +167,19 @@ export const SKILLS_DATA={
                 {NAME: 'Salesforce Community', LEVEL: '70'},
             ]
         },
-    ]
+    ],
+    OTHER_SKILLS: {
+        HEADING: 'OTHERS',
+        SKILLS_LIST: [
+            'Git',
+            'Jira',
+            'Unit Testing',
+            'Confluence'
+        ]
+    }
+}
+
+export const INTERESTS_DATA={
+    HEADING: 'Interests',
+    LIST: ['Coding', 'Reading', 'Music']
 }
