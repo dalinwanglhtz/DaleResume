@@ -14,7 +14,15 @@
                                     <li key={point}>{point}</li>
                                 </template>
                             </ul>
-                            <h4>{item.TECHNOLOGY_USED}</h4>
+                            <template if:true={item.SUB_EXPERIENCE}>
+                                <h4>{item.SUB_EXPERIENCE.HEADING}</h4>
+                                <ul class="description_point_box">
+                                    <template for:each={item.SUB_EXPERIENCE.DESCRIPTION_POINTS} for:item="subPoint">
+                                        <li key={subPoint}>{subPoint}</li>
+                                    </template>
+                                </ul>
+                            </template>
+                            <h4>{item.TECHNOLOGIES_USED.HEADING}</h4>
                             <template for:each={item.TECHNOLOGIES_USED.LIST} for:item="tech">
                                 <li key={tech} class="tech_tile">{tech}</li>
                             </template>
