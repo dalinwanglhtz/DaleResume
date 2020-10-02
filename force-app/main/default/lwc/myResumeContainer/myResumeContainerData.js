@@ -1,5 +1,8 @@
 import SOCIAL from "@salesforce/resourceUrl/SOCIAL";
 import dwang_photo from '@salesforce/resourceUrl/dwang_small';
+import test_bg from '@salesforce/resourceUrl/test_bg_image';
+
+export const HEADER_BACKGROUND = test_bg;
 
 export const PROFILE_IMAGE = dwang_photo;
 

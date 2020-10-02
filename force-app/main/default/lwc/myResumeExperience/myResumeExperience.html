@@ -8,7 +8,7 @@
                         <h3 class="blue_color font16 fontWeight700">{item.ROLE}</h3>
                         <div class="blue_color font16">{item.COMPANY_NAME} ({item.DURATION})</div>
                         <div class="slds-var-m-bottom_xx-large">
-                            <p>{item.DESCRIPTION}</p>
+                            <p class="summary_text">{item.DESCRIPTION}</p>
                             <ul class="description_point_box">
                                 <template for:each={item.DESCRIPTION_POINTS} for:item="point">
                                     <li key={point}>{point}</li>

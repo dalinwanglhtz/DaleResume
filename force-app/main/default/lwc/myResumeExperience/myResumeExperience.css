@@ -76,3 +76,8 @@
 .fontWeight700{
     font-weight: 600;
 }
+
+.summary_text {
+    font-style: oblique;
+    font-weight: bold;
+}
