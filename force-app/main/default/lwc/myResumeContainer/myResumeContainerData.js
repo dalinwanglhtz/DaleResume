@@ -54,7 +54,7 @@ export const EXPERIENCE={
             ROLE: 'Salesforce Developer',
             COMPANY_NAME:'Revolent',
             DURATION: 'May 2020 - Present',
-            DESCRIPTION: `3 x Salesforce Certified - Administrator / AppBuilder and Platform Developer 1.
+            DESCRIPTION: `3 x Salesforce Certified - Administrator / AppBuilder and Platform Developer. 
             Attained 100+ Trailhead badges, 8 Super badges in 4 months`,
             DESCRIPTION_POINTS: [
                 `Developed solutions with Lightning Web Component, ES6, HTML / CSS, VS Code, Salesforce DX and Github while completing 

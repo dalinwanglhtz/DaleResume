@@ -9,12 +9,12 @@
 }
 
 .link{
-    color: #6c7a9c;
+    color: #e4e7b4;
     font-size: 1rem;
 }
 
 .nameHeading{
-    color: #6c7a9c;
+    color: #e4e7b4;
     font-size: 2.25rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -25,7 +25,7 @@
 .roleHeading{
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
-    color: #7081b9;
+    color: #e4e7b4;
 }
 
 @media only screen and (max-width: 600px) {
