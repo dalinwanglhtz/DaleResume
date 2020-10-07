@@ -30,8 +30,8 @@ export const SOCIAL_LINKS = [
 export const USER_DETAILS = {
     NAME: 'Dale Wang',
     ROLE: 'Salesforce Developer',
-    EMAIL: 'dalinwanglhtz@gmail.com',
-    PHONE: '04xx xxx xxx'
+    EMAIL: 'd.wang@revolentgroup.com',
+    PHONE: '0433 221 488'
 }
 
 export const CAREER_SUMMARY = {
